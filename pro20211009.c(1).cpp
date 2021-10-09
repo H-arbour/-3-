@@ -1,3 +1,8 @@
+//此代码关于：输入n值，n值代表输入n行字符图案，若输入的n值为3时，则图案如下：
+// ABCBA
+//  ABA
+//   A
+
 #include <stdio.h>
 
 int main()
@@ -6,7 +11,7 @@ int main()
 	char ch;
 	while (2>1)
 	{
-		printf("������n��ֵ(-8848����)��");
+		printf("请输入n的值(-8848结束)：");
 		scanf("%d",&n);
 		if (n==-8848)
 		break;
